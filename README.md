@@ -45,7 +45,10 @@ Tambahkan Inline CSS pada paragraf dengan perintah style |text align|Color untuk
 
 2. Apa Perbedaan CSS elemen h1{..} dengan #intro h1{...}?
 ```
-jawab : Intro disini Berfungsi sebagai Id pada Html. Karen kita menggunakan lebih dari satu h1 maka kita buatkan id untuk membedakannya. maka jika di css kita tidak memberikan id #intro yang akan terkena dampaknya adalah heading1 yang paling atas.
+jawab : #Intro disini Berfungsi sebagai Id pada Html.
+Karen kita menggunakan lebih dari satu h1 maka kita buatkan id untuk membedakannya.
+maka jika di css kita tidak memberikan selektor #intro yang akan terkena dampaknya
+adalah heading1 yang paling atas.
 contoh:
 ```
 ![gbr8](foto/gbr8.png)
@@ -53,7 +56,9 @@ contoh:
 3. Apabila ada deklarasi CSS secara internal, lali ditambahkan CSS external dan inline Css pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya
 
 ```
-jawab: yang akan muncul adalah inline css karena ia menjadi prioritas pertama dalam tata aturan css diurutan kedua akan muncul internal css jika ada perintah berbedan dan di ikuti external css
+jawab: yang akan muncul adalah inline css karena ia menjadi prioritas
+pertama dalam tata aturan css diurutan kedua akan muncul internal css jika ada
+perintah berbedan dan di ikuti external css
 misalnya :
 ```
 ![gbr9](foto/gbr9.png)
